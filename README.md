@@ -1,13 +1,17 @@
 # Crater_degTool
 This is the tool to rank crater degradation level
 
-# Crater Degradation Tool Instructions
-
+# Installation instructions
 1. Clone this tool into your local repository.
 2. Place your crater image files into the same repository.
 3. Open the terminal and set it to PowerShell.
 4. Type `pip install -r requirements.txt` to install the required dependencies.
-5. Type `python tournament_analysis.py` to activate the GUI.
-6. Two images will appear in the window. Use the buttons to select the crater that appears more degraded (has a lighter rim).
-7. You can use the "Last Page" and "Next Page" buttons to navigate through previous and later results, and you can overwrite your previous selections if needed.
-8. The results will be saved in the folder containing the crater images you compared.
+
+# Run the tool to rank degradation level
+6. Type `python quick_sort.py` in the terminal to activate the GUI.
+7. Two images will appear in the window. Use the buttons to select the crater that appears more degraded (has a lighter rim).
+![image](https://github.com/user-attachments/assets/f3b3584a-153c-47da-8a4b-53ece2b3c037)
+8. The results will be saved in the image folder as "sorted_images.txt".
+9. To verify the degradation order, run the `gui_drag.py`, use your mouse to drag the crater images to your prefered order.
+![image](https://github.com/user-attachments/assets/27d09b18-aef8-4d8c-a047-8a6495c9f090)
+
