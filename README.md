@@ -26,6 +26,7 @@ This tool is designed to rank crater images by degradation level.
        <img src="https://github.com/user-attachments/assets/27d09b18-aef8-4d8c-a047-8a6495c9f090" width="50%">
    </p>
 
----
+You can view your updated sorting order in the "new_sorted_images.txt" file under the image folder.
+Please send me your sorted_images file to my email address: jz1121@ic.ac.uk. 
 
-This approach uses HTML's `<img>` tag with the `width="50%"` attribute to reduce the image size to half of its original width, centered within the document using `<p align="center">`. This formatting should render well on GitHub and other markdown viewers, preserving the reduced image size and layout.
+---
