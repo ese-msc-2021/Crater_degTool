@@ -9,7 +9,7 @@ import json
 # ==============================
 
 # Load all crater images from the specified folder and convert paths to absolute
-image_folder = '100_images'  # Update this to your image folder
+image_folder = '100_images_select'  # Update this to your image folder
 crater_images = [os.path.abspath(path) for path in glob(os.path.join(image_folder, "*.jpg"))]
 print('Crater images list:', crater_images)
 
